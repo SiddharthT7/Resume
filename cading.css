@@ -1,0 +1,72 @@
+/* General Reset */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    text-align: center;
+    padding: 20px 0;
+    border-bottom: 2px solid #ccc;
+}
+
+header h1 {
+    font-size: 2.5em;
+    font-weight: bold;
+}
+
+header .highlight {
+    color: #000;
+    font-weight: 900;
+}
+
+header h2 {
+    font-size: 1.2em;
+    font-weight: normal;
+    color: #666;
+    margin-top: 5px;
+}
+
+main {
+    display: flex;
+    max-width: 1200px;
+    margin: 30px auto;
+    padding: 0 20px;
+}
+
+.left {
+    width: 30%;
+    padding-right: 20px;
+    border-right: 1px solid #ccc;
+}
+
+.right {
+    width: 70%;
+    padding-left: 20px;
+}
+
+h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    color: #000;
+}
+
+p, ul {
+    margin: 5px 0 15px;
+}
+
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+a {
+    color: #0073e6;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
